@@ -2,7 +2,8 @@ module.exports = {
     apps: [
         {
             name: 'canopy',
-            script: './canopy npm',
+            script: 'npm',
+            cwd: "./canopy",
             args: "start",
             instances: '2', // Or a specific number of instances
             exec_mode: 'cluster', // Enables clustering mode
