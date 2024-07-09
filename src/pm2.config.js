@@ -8,8 +8,8 @@ module.exports = {
             cwd: path.resolve(__dirname, "..", "..", "canopy"),
             script: 'npm',
             args: "start",
-            instances: '2', // Or a specific number of instances
-            exec_mode: 'cluster',
+            instances: '1',
+            exec_mode: 'fork',
             env: {
                 PORT: 3000,
             },
