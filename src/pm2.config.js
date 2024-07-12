@@ -7,7 +7,7 @@ module.exports = {
             name: 'canopy',
             cwd: path.resolve(__dirname, "..", "..", "canopy"),
             script: 'npm',
-            args: "start:all",
+            args: "run start:all",
             instances: '1',
             exec_mode: 'fork',
             env: {
